@@ -107,8 +107,9 @@ header ul a {
   background: #95CFD5;
 }
 .skills .skillssquare {
-  position: relative;
+  position: absolute;
   scale: 70%;
+  transform: translateY(-2em);
 }
 .skills .skills-container {
   font-weight: bold;
@@ -117,6 +118,4 @@ header ul a {
 .skills .skills-container .skillstitle {
   font-size: 60px;
   line-height: 125%;
-  position: absolute;
-  transform: translateY(-250px);
 }/*# sourceMappingURL=main.css.map */

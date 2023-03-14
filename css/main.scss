@@ -118,8 +118,9 @@ header {
     background: #95CFD5;
 
     .skillssquare {
-        position: relative;
-        scale: 70%;
+        position: absolute;
+        scale: 70%; //fix this. it will momentarily increase size when expanding window horizontally
+        transform: translateY(-2em);
     }
 
     .skills-container {
@@ -129,8 +130,6 @@ header {
         .skillstitle {
             font-size: 60px;
             line-height: 125%;
-            position: absolute;
-            transform: translateY(-250px);
 
         }
     }
